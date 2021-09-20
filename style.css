@@ -1,3 +1,4 @@
+/*@import url("https://cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css");*/
 * {
 	margin:  0;
 	padding:  0;
@@ -5,7 +6,20 @@
 }
 a{
 	text-decoration: none;
+	/*font-family: "ALK Rex Bold", sans-serif;*/
+	/*font-family: 'Rex Bold';*/
+	font-family: 'ALK Life';
+	/*font-weight: 800;*/
+}
+.navbar-a{
+	font-family: 'Rex Bold';
 }
 ul {
 	list-style: none;
+}
+p{
+	font-family: 'Grechen Fuemen', cursive;
+}
+h5{
+	font-family: 'ALK Life';
 }
