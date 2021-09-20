@@ -18,8 +18,52 @@ ul {
 	list-style: none;
 }
 p{
+	margin-top:  10px;
 	font-family: 'Grechen Fuemen', cursive;
 }
 h5{
 	font-family: 'ALK Life';
+}
+header {
+	background-color: green;
+	position: fixed;
+	width:  100%;
+	top:  0;
+/*	bottom: ;
+	right: ;
+	left: ;*/
+	z-index: 1;
+}
+.navbar-ul li {
+	display: inline-block;
+	margin: 10px;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: fixed;
+	left:  50px;
+/*	right: 50px;*/
+	bottom:  50px;
+	border-radius: 20px;
+}
+.sticky {
+	font-size: 40px;
+	background-color:black ;
+	color:  white;
+	position: sticky;
+	top: 41px;
+	left: 50px;
+}
+.relative  {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+	top: 50px;
+	left: 80px;
+	width:  100px;
+	color: #fff;
+	background-color: black;
 }
